@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 15px;
   background-color: darkgray;
+  align-items: center;
+  text-align: center;
 }
 
 .wrapper {
@@ -16,7 +18,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100px;
-  min-width: 320px;
+  min-width: 200px;
   border-radius: 5px;
   background-color: aquamarine;
   color: #2e8b57;
