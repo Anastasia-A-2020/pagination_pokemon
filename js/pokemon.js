@@ -48,12 +48,12 @@ function onClick(e) {
 
 function markup(pokemon) {
   console.log(pokemon);
-  return ` <div class="box">
+  return ` <li class="box">
             <img src=${pokemon.sprites.front_default} alt="pokemon" />
             <ul class="info-list">
             <li><p class="text">name: ${pokemon.species.name}</p></li>
             <li><p class="text">base experience: ${pokemon.base_experience}</p></li>
             </ul>
-            </div>
+            </li>
           `;
 }
